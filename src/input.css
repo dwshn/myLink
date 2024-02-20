@@ -3,10 +3,13 @@
 @tailwind utilities;
 
 body {
-    @apply bg-bgcol;
+  @apply bg-bgcol;
 }
 
 main {
-    @apply font-raleway;
-    
+  @apply font-raleway;
+}
+
+.width {
+  width: 70%;
 }
